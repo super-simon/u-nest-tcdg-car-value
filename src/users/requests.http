@@ -17,11 +17,11 @@ GET http://localhost:3000/auth?email=asdf@asdf.com
 
 
 ### Remove a particular user with a given id
-DELETE http://localhost:3000/auth/8
+DELETE http://localhost:3000/auth/5
 
 
 ### Update a particular user with a given id
-PATCH http://localhost:3000/auth/8
+PATCH http://localhost:3000/auth/2
 Content-Type: application/json
 
 {
