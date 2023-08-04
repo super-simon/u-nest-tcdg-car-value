@@ -8,6 +8,16 @@ Content-Type: application/json
 }
 
 
+### Sign in a User
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+  "email": "asdf2@adf.com",
+  "password": "asdfsadf"
+}
+
+
 ### Find a particular user with a given id
 GET http://localhost:3000/auth/2
 
